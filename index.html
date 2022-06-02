@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Faça seu cadastro</title>
+</head>
+
+<body>
+  <form class="form">
+
+    <div class='align-form-items'>
+      <h1 class="title">Faça seu cadastro</h1>
+
+      <div class="box">
+        <label for="full-name name" class='label-form'>Nome Completo</label>
+        <input id="full-name" class="input-form" type="text" placeholder="Digite Seu Nome Completo">
+      </div>
+
+      <div class="box">
+        <label for="email-field" class="label-form" for="">E-mail</label>
+        <input id="email-field" class="input-form" type="email" placeholder="Digite seu E-mail">
+      </div>
+
+      <div class="box">
+        <label for="password-field" class="label-form" for="">Senha</label>
+        <input id="password-field" class="input-form" type="password" placeholder="Crie uma senha">
+      </div>
+
+      <div class="box">
+        <label for="confirm-password-field" class="label-form" for="">Confirmar Senha</label>
+        <input id="confirm-password-field" class="input-form" type="password" placeholder="Confirme a sua Senha">
+      </div>
+
+      <div class="align-checkbox">
+        <input type="checkbox">
+        <p class="eula-field">Aceito os termos de uso e concordo com as <a class="checkbox-anchor" href="">políticas de
+            privacidade</a></p>
+      </div>
+
+      <button type="submit" id="register" class="button submit-button">Cadastrar</button>
+    </div>
+  </form>
+  <script src="./scripts/index.js"></script>
+</body>
+
+</html>
